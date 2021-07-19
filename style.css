@@ -1,0 +1,144 @@
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.nav-bar {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar img {
+  width: 60px;
+  height: 33.75px;
+  margin: 20px;
+  /*   margin-left: 200px;
+  margin-top: 20px; */
+}
+
+.main {
+  margin: auto;
+  margin-top: -60px;
+  height: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 100px;
+  color: #000;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -100px;
+  font-family: "Nunito Sans", "Arial", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  color: #000;
+}
+
+#iphone12 {
+  margin-top: -60px;
+  width: 508px;
+}
+
+.copy {
+  text-align: center;
+  padding: 10px;
+  max-width: 585px;
+  height: 105px;
+  font-size: 17px;
+  color: #000;
+}
+
+span {
+  font-weight: bold;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+input {
+  font-size: 12px;
+  width: 380px;
+  height: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #ccc;
+}
+
+input:focus {
+  border-color: #4e9ff0;
+}
+
+button {
+  width: 178px;
+  height: 50px;
+  background-color: #0077ed;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056ac;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 570px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+
+  .copy {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
